@@ -5,10 +5,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [0.17.0] - 2021-06-25
 ### Added
-- add dictionary feature to accelerate indexing speed
+- add dictionary feature to accelerate indexing speed, also can enable by `--network-dictionary` (#342)
+- add dictionary service to fetch dictionary from api (#342)
+- add additional block number buffer in fetch service to handle incoming dictionary data (#342)
 ### Changed
-- replace vm2 with @subql/x-vm2
+- replace vm2 with @subql/x-vm2 (#358)
+- Update other dependencies (#358)
 
 ## [0.16.1] - 2021-06-22
 ### Added
